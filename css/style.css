@@ -760,6 +760,13 @@ h1, h2, h3, h4, h5, h6, figure {
     width: 49%;
   }
 }
+@media screen and (max-width: 400px) {
+  .col-sm-12 {
+    padding-left:0px !important;
+    padding-right:0px !important;
+
+}
+}
 @media screen and (max-width: 480px) {
   #fh5co-gallery-list li.one-third {
     width: 100%;
